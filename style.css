@@ -1,0 +1,44 @@
+
+.container {
+    margin: 5rem 20rem ;
+    display: flex;
+    justify-content: center;
+}
+
+.fixed {
+    margin-top: -3rem;
+    height: 8rem;
+    border-top: 2px solid black;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    width: 50%;
+}
+
+img {
+    width: 7rem;
+    height: 5rem;
+    border-radius: 20rem;
+}
+
+.left {
+    margin-right: 3rem;
+}
+
+.right {
+    /* position: fixed; */
+}
+
+.experience {
+    /* margin-top: 25rem; */
+}
+
+ @media screen and (max-width: 600px) {
+    body {
+        width: fit-content;
+    }
+
+    .container {
+        display: grid;
+    }
+} 
